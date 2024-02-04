@@ -1,0 +1,29 @@
+{
+  "name": "equityinsights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "lastUpdateDate.json"
+    ]
+  },
+  "scripts": {
+    "start": "node inedx.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.0.3",
+    "rimraf": "^5.0.5"
+  }
+}
